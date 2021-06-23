@@ -36,6 +36,7 @@ def tres_commas(profit_string, digits):
     elif digits <= 9 and digits >= 7:
         result = "${},{},{}".format(profit_string[-digits:-6], profit_string[-6:-3], profit_string[-3:])
         return result
+        
 #Parameters for calc_apy function (Input apr as whole number)
 initial_investment = 100
 apr = 3
