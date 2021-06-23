@@ -37,7 +37,7 @@ def tres_commas(profit_string, digits):
         result = "${},{},{}".format(profit_string[-digits:-6], profit_string[-6:-3], profit_string[-3:])
         return result
 
-#Parameters for calc_apy function (Input apr as whole number)
+#Parameters for calc_apy function (Input apr as number, not as percent)
 initial_investment = 100
 apr = 3
 num_daily_compounds = 0.1
