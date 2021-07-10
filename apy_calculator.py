@@ -38,9 +38,9 @@ def tres_commas(profit_string, digits):
         return result
 
 #Parameters for calc_apy function (Input apr as number, not as percent)
-initial_investment = 100
-apr = 3
-num_daily_compounds = 0.1
+initial_investment = 150
+apr = 0.45
+num_daily_compounds = 1
 days = 365
 deposit_fee = 0.00
 
